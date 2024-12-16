@@ -296,3 +296,111 @@ nav {
     display: flex;
     justify-content: center;
 }
+
+/*BEGIN PORTFOLIO CSS*/
+
+.portfolioHeader {
+    color: rgb(247, 250, 141);
+    font-size: 30px;
+    font-weight: 450;
+    margin: 0;
+    text-align: center;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.cases {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.case1 {
+    border: 1px solid rgb(247, 250, 141); 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(247, 250, 141);
+    margin-left: 20px;
+    background-color: #444444;
+    border-radius: 5px;
+    transform: scale(1); /* Initial scale */
+    transition: transform 0.5s ease, background-image 0.5s ease;
+}
+
+.case1:hover {
+    transform: scale(1.02);
+    transition: transform 0.5s ease, background-image 0.5s ease;
+}
+
+.injured {
+    
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.injuredHeader {
+    height: 45px;
+    text-align: center;
+}
+
+.case2 {
+    border: 1px solid rgb(247, 250, 141); 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(247, 250, 141);
+    margin-left: 20px;
+    background-color: #444444;
+    border-radius: 5px;
+    transform: scale(1); /* Initial scale */
+    transition: transform 0.5s ease, background-image 0.5s ease;
+}
+
+.case2:hover {
+    transform: scale(1.02);
+    transition: transform 0.5s ease, background-image 0.5s ease;
+}
+
+.arrest {
+    
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.arrestHeader {
+    height: 45px;
+    text-align: center;
+}
+
+.case3 {
+    border: 1px solid rgb(247, 250, 141); 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(247, 250, 141);
+    margin-left: 20px;
+    background-color: #444444;
+    border-radius: 5px;
+    transform: scale(1); /* Initial scale */
+    transition: transform 0.5s ease, background-image 0.5s ease;
+}
+
+.case3:hover {
+    transform: scale(1.02);
+    transition: transform 0.5s ease, background-image 0.5s ease;
+}
+
+.trust {
+    
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.trustHeader {
+    height: 45px;
+    text-align: center;
+}
+
