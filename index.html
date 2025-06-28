@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Byte Web Design</title>
+  <link rel="icon" type="image/x-icon" href="byte3.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div id="navbar"></div>
+
+  <!-- HERO SECTION -->
+  <section class="hero text-center" id="home">
+    <div class="container">
+      <h1 class="slogan display-5 fw-bold">Beautiful, Responsive Websites Built to Perform</h1>
+      <p class="lead">Charlotte-based web design tailored to your brand, goals, and customers.</p>
+      <a href="#contact" class="btn btn-primary btn-lg mt-3">Request a Free Quote</a>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="py-5 bg-dark text-light">
+    <div class="container">
+      <h2 class="text-center mb-4">What We Offer</h2>
+      <div class="row g-4">
+        <div class="col-md-4 text-center">
+          <div class="service-icon fs-2 mb-3">🖥️</div>
+          <h5>Custom Web Design</h5>
+          <p>Modern, mobile-ready sites built from scratch — designed to convert visitors into clients.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="service-icon fs-2 mb-3">⚙️</div>
+          <h5>Website Maintenance</h5>
+          <p>Monthly care plans that include updates, backups, and support so your site always runs smoothly.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="service-icon fs-2 mb-3">📈</div>
+          <h5>SEO & Optimization</h5>
+          <p>Search engine strategies that improve your rankings, speed, and visibility across Google.</p>
+        </div>
+        <div class="col-12 text-center">
+          <p class="mt-2">...and much more, including branding, analytics, and hosting setup.</p>
+          <a href="./services.html" class="btn btn-outline-light btn-lg mt-3">See Full Services & Pricing</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="m-0" style="border: 1px solid white;" />
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-5 bg-dark text-light">
+    <div class="container">
+      <h2 class="text-center mb-4">About Byte Web Design</h2>
+      <div class="row g-4">
+        <div class="col-md-4 text-center">
+          <div class="about-icon fs-2 mb-2">🌟</div>
+          <h5>Our Mission</h5>
+          <p>To empower small businesses and individuals with effective, affordable, and high-quality web solutions.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="about-icon fs-2 mb-2">👨‍💻</div>
+          <h5>Meet the Designer</h5>
+          <p>Certified web developer and UNC Charlotte graduate passionate about clean code, great design, and results.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="about-icon fs-2 mb-2">📍</div>
+          <h5>Charlotte-Based, Web-Wide Reach</h5>
+          <p>Proudly serving the Queen City and clients remotely across the U.S.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="m-0" style="border: 1px solid white;" />
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="py-5 bg-dark text-light">
+    <div class="container">
+      <h2 class="text-center mb-3">Let's Build Your Online Presence</h2>
+      <p class="text-center mb-1" style="font-size: 0.9rem;">
+        <img src="ping.gif" alt="Ping" style="width: 20px; height: 20px;" /> Response time: &lt; 24 hours
+      </p>
+      <p class="text-center mb-4">Refer a friend and get up to <strong>50% off</strong> your next service.</p>
+
+      <form action="https://formspree.io/f/xnnvgadr" method="POST">
+        <input type="hidden" name="_subject" value="New Contact Form Submission from Website" />
+        <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html" />
+
+        <div class="mb-3">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="name" name="name" required />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="email" name="_replyto" required 
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            title="Please enter a valid email address." />
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">Phone Number</label>
+          <input type="tel" class="form-control" id="phone" name="phone" required 
+            pattern="\d+" 
+            title="Please enter a valid phone number." />
+        </div>
+        <div class="mb-3">
+          <label for="description" class="form-label">Project Details</label>
+          <textarea class="form-control" id="description" name="description" rows="4" required placeholder="Tell us what you're looking for..." minlength="25"></textarea>
+          <small>Minimum 25 characters</small>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary btn-lg mt-3">Submit Request</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <script src="scripts.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+<footer class="bg-dark text-center text-light py-3">
+  <p class="mb-0">&copy; 2025 Byte Web Design. Crafted with care in Charlotte, NC.</p>
+</footer>
