@@ -13,6 +13,7 @@ document.getElementById("navbar").innerHTML = `
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="/services.html" target="_blank">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="/mywork.html">My Work</a></li>
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
@@ -20,6 +21,16 @@ document.getElementById("navbar").innerHTML = `
     </div>
   </nav>
 `;
+
+window.addEventListener('DOMContentLoaded', function() {
+      setTimeout(function() {
+        document.getElementById('quote-popup').style.display = 'block';
+      }, 2000);
+      document.getElementById('close-quote-popup').onclick = function() {
+        document.getElementById('quote-popup').style.display = 'none';
+      };
+    });
+
 
  document.addEventListener('DOMContentLoaded', () => {
     const hero = document.querySelector('.hero');

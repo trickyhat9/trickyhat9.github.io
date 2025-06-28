@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Work</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mywork.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+<body> 
+<a href="index.html" class="back-home" style="position: absolute; top: 20px; left: 20px; text-decoration: none; font-family: 'Quicksand', Arial, sans-serif; font-weight: 600; color: #333; background: #f3f3f3; padding: 8px 16px; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.05); transition: background 0.2s;">
+    &larr; Back to home
+</a>
+    <header>
+
+        
+        <h1>My Work</h1>
+        <p>A showcase of my recent web design projects</p>
+    </header>
+    <main>
+        <section class="work-grid">
+            <div class="work-card" tabindex="0">
+                <div class="work-image">
+                    <img src="https://via.placeholder.com/400x225?text=Website+1" alt="Website 1" style="width:100%;height:auto;display:block;">
+                </div>
+                <div class="work-title">Website Project 1</div>
+            </div>
+            <div class="work-card" tabindex="0">
+                <div class="work-image">
+                    <img src="https://via.placeholder.com/400x225?text=Website+2" alt="Website 2" style="width:100%;height:auto;display:block;">
+                </div>
+                <div class="work-title">Website Project 2</div>
+            </div>
+            <div class="work-card" tabindex="0">
+                <div class="work-image">
+                    <img src="https://via.placeholder.com/400x225?text=Website+3" alt="Website 3" style="width:100%;height:auto;display:block;">
+                </div>
+                <div class="work-title">Website Project 3</div>
+            </div>
+            <div class="work-card" tabindex="0">
+                <div class="work-image">
+                    <img src="https://via.placeholder.com/400x225?text=Website+4" alt="Website 4" style="width:100%;height:auto;display:block;">
+                </div>
+                <div class="work-title">Website Project 4</div>
+            </div>
+            <div class="work-card" tabindex="0">
+                <div class="work-image">
+                    <img src="https://via.placeholder.com/400x225?text=Website+5" alt="Website 5" style="width:100%;height:auto;display:block;">
+                </div>
+                <div class="work-title">Website Project 5</div>
+            </div>
+            <div class="work-card" tabindex="0">
+                <div class="work-image">
+                    <img src="https://via.placeholder.com/400x225?text=Website+6" alt="Website 6" style="width:100%;height:auto;display:block;">
+                </div>
+                <div class="work-title">Website Project 6</div>
+            </div>
+        </section>
+    </main>
+
+
+    <div style="text-align:center; margin: 32px 0;">
+        <a href="index.html#contact" class="contact-btn" style="display:inline-block; font-family: 'Quicksand', Arial, sans-serif; font-weight:600; background:#4F8EF7; color:#fff; padding:14px 32px; border-radius:8px; text-decoration:none; font-size:1.1rem; box-shadow:0 2px 8px rgba(0,0,0,0.07); transition:background 0.2s;">
+            Fill out the contact form
+        </a>
+    </div>
+    <br>
+    <br>
+    <!-- Modal for maximized image -->
+    <div class="modal" id="imageModal" tabindex="-1">
+        <div class="modal-content">
+            <img id="modalImg" src="" alt="Maximized Work" />
+            <button class="modal-close" id="closeModal">Close</button>
+        </div>
+    </div>
+    <script src="mywork.js"></script>
+    <script src="scripts.js"></script>
+
+
+</body>
+</html>
